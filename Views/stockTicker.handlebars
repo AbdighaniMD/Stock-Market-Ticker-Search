@@ -1,0 +1,16 @@
+<div class="p-5 mb-4 bg-light rounded-3 text-center">
+    <div class="container">
+    <h1 class="display-5 fw-bold">{{ stock.companyName }}</h1>
+    <h2 >{{stock.symbol}}</h2>
+    <p class=" fs-4">
+        <strong> Latest Price: </strong>{{ stock.latestPrice}} <br/>
+        <strong> Previous Close: </strong>{{ stock.previousClose }} <br/>
+        <strong> Percent Change: </strong>{{ stock.changePercent  }} <br/>
+        <strong> 52 week hight: </strong>{{ stock.week52High  }} <br/>
+        <strong> 52 week low: </strong>{{ stock.week52Low   }} <br/>
+
+        <strong> YTD Change: </strong>{{ stock.ytdChange  }} <br/>
+        <strong> Market Cap: </strong>{{ stock.marketCap  }} <br/>    
+    </p>
+    </div>
+</div> 
